@@ -1,1 +1,1 @@
-# canigivemydog-api-alex-skill
+# canigivemydog-api-alexa-skill
