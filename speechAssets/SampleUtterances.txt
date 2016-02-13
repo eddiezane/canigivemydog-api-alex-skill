@@ -1,0 +1,4 @@
+CanIGiveMyDogIntent {cheese|Food}
+CanIGiveMyDogIntent a {banana|Food}
+CanIGiveMyDogIntent an {apple|Food}
+CanIGiveMyDogIntent some {pizza|Food}

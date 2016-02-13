@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "CanIGiveMyDogIntent",
+      "slots": [
+        {
+          "name": "Food",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
