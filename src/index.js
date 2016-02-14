@@ -60,7 +60,8 @@ CanIGiveMyDog.prototype.intentHandlers = {
         res.on('end', function() {
           console.log("The resp was: ", reply);
           var answer = JSON.parse(reply);
-          response.tell(answer.err ? "Sorry, food not found. Try asking again a different way" : answer.answer);
+
+          response.tell(answer.err ? "Sorry, food not found. Try asking again a different way" : answer.question + answer.answer);
         });
       });
 
